@@ -1,0 +1,60 @@
+@import '../base/mixin';
+@import '../base/variabel';
+
+#tiga {
+    width: calc(100% - 1.5%);
+    height: 500px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+    
+    .t-konten {
+        margin: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+        .t-tengah {
+            margin:  auto 0;
+            display: flex;
+            align-items: center;
+            height: 100%;
+
+            .img {
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+            }
+            h3 {
+                color: $colorprimary;
+                text-align: center;
+            }
+            h1 {
+                color: $colorsecond;
+                text-align: center;
+            }
+            .img img {
+                margin: auto;
+                justify-content: center;
+                width: 70px;
+            }
+
+            button {
+                display: flex;
+                margin: 30px auto;
+                justify-content: center;
+                padding: 10px;
+                width: 150px;
+                border-radius: 5px;
+                background-color: $colorprimary;
+                border: transparent;
+                a {
+                    @include a();
+                    color: $colorsecond;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

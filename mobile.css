@@ -1,0 +1,128 @@
+@media screen and (max-width:1024px) {
+    .pertama .container header menu-right {
+        
+    }
+    
+    #kedua .container1 {
+        flex-wrap: wrap;
+    }
+
+    #kedua .container1 .kiri {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #kedua .container1 .kanan {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #tiga {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #tiga .konten {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #empat .e-konten {
+        flex-wrap: wrap;
+    }
+
+    #empat .e-konten .e-kiri {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #empat .e-konten .e-kanan {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    #lima .l-konten {
+        flex-wrap: wrap;
+    }
+
+    #lima .l-konten .l-kiri {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #lima .l-konten .l-tengah {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    #lima .l-konten .l-kanan {
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    #enam .row {
+        flex-wrap: wrap;
+    }
+
+    #enam .row .coloum {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        height: 960px;
+    }
+
+    footer .f-container {
+        padding: 20px 0 0 0 ;
+        margin: auto;
+        width: 80%;
+    }
+    
+    footer .f-container .f-konten {
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+
+    footer .f-container .f-konten .f-kiri, 
+    footer .f-container .f-konten .f-tengah,
+    footer .f-container .f-konten .f-kanan
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .f .container .fs {
+        flex-wrap: wrap;
+    }
+
+    footer .f .container .fs p {
+        align-items: center;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+
+    footer .f .container .fs .fs-1 {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    footer .f .container .fs .fs-1 li {
+        padding: 10px 5px 10px 5px;
+    }
+
+    footer .f .container .fs .fs-1 li a {
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    
+}
+

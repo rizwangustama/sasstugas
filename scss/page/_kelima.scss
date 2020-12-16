@@ -1,0 +1,28 @@
+@import '../base/mixin';
+@import '../base/variabel';
+
+#lima {
+    .l-konten {
+        display: flex;
+        margin: 0 10px;
+        .l-kiri {
+            background-size: cover;
+            width: $width3;
+            height: $height;
+            margin-right: 5px;
+        }
+        .l-tengah {
+            width: $width3;
+            height: $height;
+            background-size: cover;
+            margin: 0 5px;
+        }
+        .l-kanan {
+            width: $width3;
+            height: $height;
+            background-size: cover;
+            margin-left: 5px;
+        }
+    }
+
+}

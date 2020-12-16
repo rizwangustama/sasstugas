@@ -1,0 +1,93 @@
+@import '../base/mixin';
+@import '../base/variabel';
+
+footer {
+    margin-top: 10px;
+    background: rgb(32, 32, 32);
+    width: 100%;
+    height: 445x;
+    .img {
+        margin-top: -50px;
+        width: 100%;
+        height: 80px;
+        background-image: url(./asset/footerwave.png);
+        position: absolute;
+        z-index: 1;
+    }
+    .f-container {
+        padding: 60px 150px;
+        .f-konten {
+            display: flex;
+            .f-kiri {
+                width: $width3;
+                margin-right: 20px;
+                img {
+                    width: 400px;
+                }
+                p {
+                    color: white;
+                    font-size: 14px;
+                    text-align: justify;
+                    font-weight: lighter;
+                    line-height: 20px;
+                }
+            }
+
+            .f-tengah {
+                width: 33.3%;
+                .f-isi {
+                    display: flex;
+                    margin-bottom: 10px;
+                    font-weight: lighter;
+                }
+                img {
+                    height: 20px;
+                    padding-top: 5px;
+                    padding-right: 10px;
+                }
+
+                p{
+                    color: white;
+                    font-size: 14px;
+                }
+                
+                
+            }
+            .f-kanan {
+                width: 33.3%;
+            }
+            
+        }
+    }
+    hr {
+        border-color: gray;
+    }
+    .f {
+        .container {
+            .fs {
+                display: flex;
+                justify-content: space-between;
+                .fs-1 {
+                    display: flex;
+                    li {
+                        @include li();
+                        padding: 20px;
+                        a {
+                            color: $colorsecond;
+                            font-size: 14px;
+                            font-weight: lighter;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                p {
+                    padding: 20px;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: lighter;
+                }
+
+            }
+        }
+    }
+}

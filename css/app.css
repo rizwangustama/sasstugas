@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px; } }
+
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 100%; } }
+
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1200px; }
+
+.pertama {
+  width: 100%;
+  position: fixed;
+  background-color: #ffff;
+  transition: ease all 1s;
+  z-index: 2; }
+  .pertama .container {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px; }
+    .pertama .container header {
+      display: flex;
+      justify-content: space-between; }
+      .pertama .container header .logo img {
+        width: 170px; }
+      .pertama .container header .menu-right nav {
+        align-items: center;
+        height: 100%; }
+        .pertama .container header .menu-right nav ul {
+          height: 100%;
+          display: flex;
+          margin: 0 auto;
+          justify-content: center; }
+          .pertama .container header .menu-right nav ul li {
+            list-style-type: none;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            padding: 10px 15px;
+            border: 1px solid #000;
+            border-bottom: none;
+            border-right: none;
+            border-top: 3px solid transparent;
+            border-color: rgba(88, 88, 88, 0.158); }
+            .pertama .container header .menu-right nav ul li a {
+              text-decoration: none;
+              color: #000;
+              display: flex;
+              padding: 0;
+              margin: auto;
+              text-align: center;
+              line-height: 17px;
+              font-weight: bold;
+              align-items: center;
+              font-size: 14px; }
+          .pertama .container header .menu-right nav ul li:hover {
+            border-top: 3px solid #e27026; }
+          .pertama .container header .menu-right nav ul li:nth-last-child(1) {
+            border-right: 1px solid rgba(88, 88, 88, 0.158); }
+          .pertama .container header .menu-right nav ul li:nth-last-child(6) {
+            border-top: 3px solid #e27026; }
+
+#slid {
+  width: 100%;
+  height: 620px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #slid .container .konten {
+    padding-top: 350px; }
+    #slid .container .konten h1 {
+      font-size: 42px;
+      color: #e27026; }
+    #slid .container .konten h3 {
+      line-height: 15px;
+      font-size: 23px;
+      color: #ffff; }
+    #slid .container .konten h4 {
+      font-size: 23px;
+      line-height: 15px;
+      color: #ffff; }
+  #slid .container .ikon {
+    margin-top: 30px;
+    display: flex; }
+    #slid .container .ikon .cycle {
+      margin: 10px;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #ffff;
+      border-radius: 100%; }
+    #slid .container .ikon .cycle:nth-last-child(2) {
+      border: 3px solid #ffff; }
+
+#kedua {
+  width: 100%; }
+  #kedua .container1 {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; }
+    #kedua .container1 .kiri {
+      margin: auto 0;
+      display: flex;
+      width: 65%;
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      #kedua .container1 .kiri .konten {
+        display: block;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        margin: auto; }
+        #kedua .container1 .kiri .konten .isi h1 {
+          font-size: 23px;
+          color: #ffff;
+          text-align: center;
+          text-align: center;
+          margin: 15px 0; }
+        #kedua .container1 .kiri .konten .isi h2 {
+          font-size: 13px;
+          color: #ffff;
+          text-align: center; }
+        #kedua .container1 .kiri .konten button {
+          display: flex;
+          margin: 30px auto;
+          width: 50%;
+          padding: 10px;
+          justify-content: center;
+          align-items: center;
+          background: transparent;
+          border: 2px solid #ffff;
+          border-radius: 5px; }
+          #kedua .container1 .kiri .konten button a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            color: #ffff; }
+    #kedua .container1 .kanan {
+      height: 350px;
+      width: 35%;
+      margin-left: 10px; }
+      #kedua .container1 .kanan .konten1 {
+        width: 60%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0; }
+        #kedua .container1 .kanan .konten1 h1 {
+          color: #ffff; }
+        #kedua .container1 .kanan .konten1 .k-isi .k-kiri img {
+          width: 100px; }
+        #kedua .container1 .kanan .konten1 .k-isi .k-kanan {
+          margin-left: 10px; }
+          #kedua .container1 .kanan .konten1 .k-isi .k-kanan p {
+            font-size: 14px;
+            color: #ffff; }
+          #kedua .container1 .kanan .konten1 .k-isi .k-kanan button {
+            margin: 20px 0;
+            padding: 5px;
+            width: 150px;
+            border: 1px solid #e27026;
+            background-color: #e27026;
+            border-radius: 5px; }
+            #kedua .container1 .kanan .konten1 .k-isi .k-kanan button a {
+              text-decoration: none;
+              color: #000;
+              color: #ffff; }
+
+#tiga {
+  width: calc(100% - 1.5%);
+  height: 500px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: 0 10px; }
+  #tiga .t-konten {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center; }
+    #tiga .t-konten .t-tengah {
+      margin: auto 0;
+      display: flex;
+      align-items: center;
+      height: 100%; }
+      #tiga .t-konten .t-tengah .img {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 20px; }
+      #tiga .t-konten .t-tengah h3 {
+        color: #e27026;
+        text-align: center; }
+      #tiga .t-konten .t-tengah h1 {
+        color: #ffff;
+        text-align: center; }
+      #tiga .t-konten .t-tengah .img img {
+        margin: auto;
+        justify-content: center;
+        width: 70px; }
+      #tiga .t-konten .t-tengah button {
+        display: flex;
+        margin: 30px auto;
+        justify-content: center;
+        padding: 10px;
+        width: 150px;
+        border-radius: 5px;
+        background-color: #e27026;
+        border: transparent; }
+        #tiga .t-konten .t-tengah button a {
+          text-decoration: none;
+          color: #000;
+          color: #ffff;
+          font-weight: bold; }
+
+#empat .e-konten {
+  display: flex;
+  padding: 10px; }
+  #empat .e-konten .e-kiri {
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5px; }
+  #empat .e-konten .e-kanan {
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5px; }
+
+#lima .l-konten {
+  display: flex;
+  margin: 0 10px; }
+  #lima .l-konten .l-kiri {
+    background-size: cover;
+    width: 33.3%;
+    height: 400px;
+    margin-right: 5px; }
+  #lima .l-konten .l-tengah {
+    width: 33.3%;
+    height: 400px;
+    background-size: cover;
+    margin: 0 5px; }
+  #lima .l-konten .l-kanan {
+    width: 33.3%;
+    height: 400px;
+    background-size: cover;
+    margin-left: 5px; }
+
+#enam {
+  margin-top: 50px; }
+  #enam h1 {
+    text-align: center;
+    margin-bottom: 25px; }
+  #enam .row {
+    display: flex;
+    margin-top: 10px; }
+    #enam .row .coloum {
+      width: 25%;
+      box-shadow: 5px 10px 19px #888888;
+      margin: auto 20px;
+      border: 1px solid none;
+      border-radius: 10px; }
+      #enam .row .coloum img {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        overflow: hidden; }
+      #enam .row .coloum p {
+        text-align: center;
+        padding: 15px; }
+      #enam .row .coloum .satu {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #5c5c5c96; }
+      #enam .row .coloum .satu:nth-child(3) {
+        border: 3px solid blue; }
+  #enam .ft {
+    display: flex;
+    justify-content: center;
+    padding: 50px; }
+
+footer {
+  margin-top: 10px;
+  background: #202020;
+  width: 100%;
+  height: 445x; }
+  footer .img {
+    margin-top: -50px;
+    width: 100%;
+    height: 80px;
+    background-image: url(./asset/footerwave.png);
+    position: absolute;
+    z-index: 1; }
+  footer .f-container {
+    padding: 60px 150px; }
+    footer .f-container .f-konten {
+      display: flex; }
+      footer .f-container .f-konten .f-kiri {
+        width: 33.3%;
+        margin-right: 20px; }
+        footer .f-container .f-konten .f-kiri img {
+          width: 400px; }
+        footer .f-container .f-konten .f-kiri p {
+          color: white;
+          font-size: 14px;
+          text-align: justify;
+          font-weight: lighter;
+          line-height: 20px; }
+      footer .f-container .f-konten .f-tengah {
+        width: 33.3%; }
+        footer .f-container .f-konten .f-tengah .f-isi {
+          display: flex;
+          margin-bottom: 10px;
+          font-weight: lighter; }
+        footer .f-container .f-konten .f-tengah img {
+          height: 20px;
+          padding-top: 5px;
+          padding-right: 10px; }
+        footer .f-container .f-konten .f-tengah p {
+          color: white;
+          font-size: 14px; }
+      footer .f-container .f-konten .f-kanan {
+        width: 33.3%; }
+  footer hr {
+    border-color: gray; }
+  footer .f .container .fs {
+    display: flex;
+    justify-content: space-between; }
+    footer .f .container .fs .fs-1 {
+      display: flex; }
+      footer .f .container .fs .fs-1 li {
+        list-style-type: none;
+        padding: 20px; }
+        footer .f .container .fs .fs-1 li a {
+          color: #ffff;
+          font-size: 14px;
+          font-weight: lighter;
+          text-decoration: none; }
+    footer .f .container .fs p {
+      padding: 20px;
+      color: white;
+      font-size: 14px;
+      font-weight: lighter; }

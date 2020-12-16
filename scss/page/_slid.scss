@@ -1,0 +1,48 @@
+@import '../base/mixin';
+@import '../base/variabel';
+
+#slid {
+    width: 100%;
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+
+        .konten {
+            padding-top: 350px;
+    
+            h1 {
+                font-size: $fontJudul;
+                color: $colorprimary;
+            }
+    
+            h3 {
+                line-height: 15px;
+                font-size: $fontSub;
+                color: $colorsecond;
+            }
+            h4 {
+                font-size: $fontSub;
+                line-height: 15px;
+                color: $colorsecond;
+            }
+        }
+
+        .ikon {
+            margin-top: 30px;
+            display: flex;
+            .cycle {
+                margin: 10px;
+                width: 10px;
+                height: 10px;
+                border: 1px solid $colorsecond;
+                border-radius: 100%;
+            }
+            .cycle:nth-last-child(2) {
+                border: 3px solid $colorsecond;
+            }
+        }
+
+    }
+}

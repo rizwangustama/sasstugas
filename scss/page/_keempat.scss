@@ -1,0 +1,24 @@
+@import '../base/mixin';
+@import '../base/variabel';
+
+#empat{ 
+    .e-konten {
+        display: flex;
+        padding: 10px;
+        .e-kiri {
+            width: 50%;
+            height: 400px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 5px;
+        }
+        .e-kanan {
+            width: 50%;
+            height: 400px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-left: 5px;
+        }
+    }
+
+}

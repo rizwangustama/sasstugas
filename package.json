@@ -1,0 +1,18 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "belajar sass pemula",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Rizwan Gustama",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

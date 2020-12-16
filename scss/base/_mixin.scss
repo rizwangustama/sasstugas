@@ -1,0 +1,14 @@
+@mixin a {
+    text-decoration: none;
+    color: #000;
+}
+@mixin li {
+    list-style-type: none;
+}
+
+@mixin container {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+}
+

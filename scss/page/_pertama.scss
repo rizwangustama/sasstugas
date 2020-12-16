@@ -1,0 +1,73 @@
+@import '../base/mixin';
+@import '../base/variabel';
+
+.pertama {
+    width: 100%;
+    // height: 100%;
+    position: fixed;
+    background-color: $colorsecond;
+    transition: ease all 1s;
+    z-index: 2;
+
+    .container{
+        @include container();
+
+        header {
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                img {
+                    width: 170px;
+                }
+            }
+            .menu-right {
+                nav {
+                    align-items: center;
+                    height: 100%;
+                    ul {
+                        height: 100%;
+                        display: flex;
+                        margin: 0 auto;
+                        justify-content: center;
+                        
+                        li {
+                            @include li();
+                            display: flex;
+                            margin: 0 auto;
+                            justify-content: center;
+                            padding: 10px 15px;
+                            border: 1px solid $colortext;
+                            border-bottom: none;
+                            border-right: none;
+                            border-top: 3px solid transparent;
+                            border-color: $border-color;
+                            a {
+                                @include a();
+                                display: flex;
+                                padding: 0;
+                                margin: auto;
+                                text-align: center;
+                                line-height: 17px;
+                                font-weight: bold;
+                                align-items: center;
+                                font-size: 14px;
+                            }
+    
+                        }
+                        li:hover {
+                            border-top: 3px solid $colorprimary;
+                        }
+    
+                        li:nth-last-child(1) {
+                            border-right: 1px solid  rgba(88, 88, 88, 0.158);
+                        }
+                        li:nth-last-child(6) {
+                            border-top: 3px solid $colorprimary;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
